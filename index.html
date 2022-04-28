@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Test</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="display-4 m-3">Login ALejandro Damian Galicia HTML - PHP - AJAX </h1>
+    </div>
+    <hr>
+    <form class="col-4 m-4">
+        <div class="mb-3">
+            <label for="user" class="form-label">Usuario</label>
+            <input type="text" maxlength="10" class="form-control" id="user">
+
+        </div>
+        <div class="mb-3">
+            <label for="password" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="password">
+        </div>
+        <div class="m-2">
+            <button type="submit" class="btn btn-primary" id="login">Inicio de Sesión</button>
+            <button type="submit" class="btn btn-success" id="reset">Renovar id de Sesión</button>
+            <button type="submit" class="btn btn-danger" id="out">Cerrar Sesión</button>
+        </div>
+    </form>
+
+    <div class="result"></div>
+    <script src="js/jquery.js"></script>
+    <script src="js/login.js"></script>
+</body>
+
+</html>
